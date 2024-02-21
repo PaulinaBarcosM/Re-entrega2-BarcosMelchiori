@@ -1,0 +1,347 @@
+/* font-family: 'Bodoni Moda', serif; */
+
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+ol ul{
+    list-style: none;
+}
+
+.textoCentrado{
+    text-align: center;
+}
+
+h1{
+    font-style: italic;
+    font-size: 50px;
+    padding: 10px 20px;
+}
+
+footer ul li a{
+    color: white;
+    padding: 0 20px;
+    position: relative;
+}
+
+/* --------Tipografía */
+.claseTipografia{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 300;
+    color: white;
+}
+
+/* barra con flex */
+header{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.barraNavegacion{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 10px;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    padding: 0 20px;
+    margin: 0 15px;
+    color: white;
+}
+
+/* --------Imagenes */
+img{
+    width: 400px;
+    height: 500px;
+}
+
+
+/* ---------Body index */
+#bodyIndex{
+    color: white;
+    background-image: url(../IMG/fondoprincipalnegybla.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1800px;
+}
+.indexH2{
+    text-align: center;
+    margin: 200px 0 70px 0;
+}
+.indexParrafo{
+    text-align: center;
+}
+/* -----boostrap index */
+section{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.color-boton{
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid black;
+}
+
+
+/* ----------Body pary */
+#body-pary{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 300;
+    background-color: #0e0d0d;
+    color: white;
+}
+
+/* estilos del HEADER */
+.header-pary{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-pary nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: whitesmoke;
+}
+.header-pary nav ul li{
+    color: whitesmoke;
+}
+
+ /* estilos de MAIN */
+.contenedor-pary div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.contenedor-pary .photos-uno-pary, .contenedor-pary .photos-dos-pary{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 25%);
+    gap: 2rem;
+    margin: 3rem 2rem;
+}
+.contenedor-pary .parrafo-pary{
+   display: grid;
+   align-content: flex-start;
+   margin-top: -400px;
+   margin-bottom: 30px;
+   justify-content: center;
+   font-size: 20px;
+}
+
+/* estilos del FOOTER */
+.footer-pary{
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+/* ---------Body urban*/
+#bodyUrban{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 300;
+    background-color: black;
+}
+.urbanH2{
+    margin: 20px 0 20px 0;
+}
+
+
+/* ---------Body classic */
+#body-classic{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 300;
+    background-color: #0e0d0d;
+    color: whitesmoke;
+}
+/* estilos del HEADER */
+.header-classic{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-classic nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: whitesmoke;
+}
+.header-classic nav ul li{
+    color: whitesmoke;
+}
+
+/* estilos de MAIN */
+.contenedor-classic div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contenedor-classic .img-cinco-classic, .img-seis-classic{
+    display: none;
+}
+.contenedor-classic .photos-classic{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 25%);
+    gap: 1rem;
+    margin: 3rem 2rem;
+}
+
+/* estilos del FOOTER */
+.footer-classic{
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    margin: 360px;
+}
+
+
+/* --------Body long in */
+#bodyLongin{
+    color: white;
+    background-image: url(../IMG/imgbodylongin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2500px;
+}
+#mainLongin{
+    margin: 70px 0 0 15px;
+}
+.longinH3{
+    font-size: 25px;
+    margin: 15px 1200px 25px 0;
+    padding: 4px 0 4px 25px;
+    border: 3px solid white;
+}
+.longinH4{
+    border: 3px solid white;
+    padding: 5px 0 5px 0;
+    margin: 100px 600px 100px 600px;
+}
+/* --------boostrap Long In */
+.tipografia-boostrap{
+    font-family: 'Bodoni Moda', serif;
+    background-color: rgb(234, 227, 227);
+    transition: opacity 15s;
+}
+.tipografia-boostrap:hover{
+    opacity: 0; /* Fondo transparente al pasar el mouse */
+}
+.color-enter{
+    color: black;
+    border: 1px solid grey;
+}
+
+
+/* --------Flexbox */
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.photos2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+/* .barraNavegacion{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
+} */
+
+
+/* --------media querie para TABLET*/
+@media screen and (min-width:600px){
+    /* mq classic */
+    .contenedor-classic{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 50%);
+    }
+    
+    .contenedor-classic .img-ocho-classic, .img-siete-classic{
+        grid-column: span 2;
+    }
+    
+    /* mq pary */
+    .contenedor-pary{
+        grid-template-columns: repeat(2. 1fr);
+        grid-template-rows: repeat(3,50%);
+    }
+    
+    .contenedor-pary .img-uno-pary, .contenedor-pary .img-dos-pary{
+        grid-column: span 2;
+    }
+    
+    .contenedor-pary .img-tres-pary, .contenedor-pary .img-cuatro-pary{
+        grid-column: span 2;
+    }
+    
+    .contenedor-pary .img-cinoc-pary, .contenedor-pary .img-seis-pary{
+        grid-column: span 2;
+    }
+}
+
+/* --------media querie de DESKTOP */
+@media screen and (min-width:1024px){
+    /* mq classic */
+    .contenedor-classic .img-cinco-classic, .contenedor-classic .img-seis-classic{
+        display: block;
+    }
+    
+    .contenedor-classic{
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 40% 40% 15% 30%;
+    }
+
+    .contenedor-classic .img-uno-classic, .contenedor-classic .img-tres-classic{
+        grid-row: span 2;
+    }
+
+    .contenedor-classic .img-dos-classic, .contenedor-classic .img-cuatro-classic{
+        grid-column: span 1;
+    }
+
+    .contenedor-classic .img-ocho-classic{
+        grid-column: span 3;
+    }
+
+    .contenedor-classic .img-siete-classic, .contenedor-classic .img-cinco-classic, .contenedor-classic .img-seis-classic{
+        grid-row: span 1;
+    }
+
+    /* mq pary */
+    .contenedor-pary{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .contenedor-pary .img-uno-pary, .contenedor-pary .img-dos-pary, .contenedor-pary .img-tres-pary{
+        grid-column: span 3;
+    }
+
+    .contenedor-pary .img-cuatro-pary, .contenedor-pary .img-cinoc-pary, .contenedor-pary .img-seis-pary{
+        grid-column: span 3;
+    }
+    
+}
+
+
